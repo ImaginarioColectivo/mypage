@@ -1,0 +1,260 @@
+*{
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+}
+
+body {
+		font-family: 'Roboto', sans-serif;
+		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+header {
+		background-color: #383B43;
+		width: 100%;
+		height: 4em;
+}
+
+.name {
+		color: #ffffff;
+		text-align: justify;
+		display: inline-block;
+		margin-left: 1em;
+}
+
+ul {
+		 list-style: none;
+		 padding: 1%;
+		 margin: 0;
+		 line-height: 40px;
+}
+
+li {
+		 width: 100px;
+		 display: inline-block;
+		 text-align: center;
+}
+
+a {
+		 color: gray;
+		 text-decoration: none;
+		 display: block;
+}
+
+a:hover {
+		 color: #FFF;
+}
+
+#home {
+		width: 100%;
+		height: 25em;
+		object-fit: cover;
+		background-position: center;
+}
+	 
+h1.queHacemos {
+		text-align: left;
+		color: #26292E;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1.5em;
+		padding-bottom: 0.5em;
+}
+
+.whatwedo {
+		background-color: #C6AE78;
+		padding-top: 4%;
+		padding-left: 10%;
+}
+
+.parrafo {
+		text-align: justify;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1em;
+		color: #000000;
+}
+
+.parrafoDos {
+		text-align: justify;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1em;
+		color: #000000;
+}
+
+.buttonAction {
+		border: 0.5em solid #2e518b;
+		color: #ffffff;
+		text-decoration: none;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		border-radius: 1em;
+		width: 9em;
+		background-color: #2e518b;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 0.1em;
+}
+
+.contactUs {
+		background-color: #000000;
+		padding-top: 1%;
+		padding-left: 10%;
+		width: 50%
+		height: 15em;
+}
+
+.info {
+		text-align: justify;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1em;
+		color: #000000;
+}
+
+.contact {
+		text-align: left;
+		color: #26292E;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1.5em;
+		padding-bottom: 0.5em;
+}
+
+.nameTwo {
+		color: #000000;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1em;
+		text-align: left;
+		padding-bottom: 0;
+		margin: 0;
+	}
+
+.adress {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1em;
+		color: #000000;
+		text-align: left;
+		padding: 0;
+		margin: 0;
+}
+
+.adressDos {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1em;
+		color: #000000;
+		text-align: left;
+		padding: 0;
+		margin: 0;
+}
+
+
+.info {
+		text-align: left;
+		padding-left: 6em;
+}
+
+.phone {
+		padding: 0;
+		margin: 0;
+		color: #000000;
+		text-align: left;
+		font-size: 1em;
+		font-family: 'Roboto', sans-serif;
+		font-weight: normal;
+}
+
+.fa {
+		text-align: left;
+		padding-right: 0.2em;
+}
+
+.boxes {
+		padding-left: 9em;
+		padding-right: 9em;
+		padding-top: 5em;
+		padding-bottom: 6em;
+		background-color: #C6AE78;
+}
+
+.photoUno {
+		width: 18.75em;
+		height: 12,5em;
+		border-radius: 1em;
+}
+
+.photoDos {
+		width: 18.75em; 
+		height: 12,5em;
+		border-radius: 1em;
+
+}
+
+.photoTres {
+		width: 18.75em;
+		height: 12,5em;
+		border-radius: 1em;
+}
+
+#uno {
+		width: 100%;
+		background-size: contain;
+}
+
+#dos {
+		width: 100%;
+		background-size: contain;
+}
+
+#tres {
+		width: 100%;
+		background-size: contain;
+}
+
+.cardTitle {
+		color: ;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1.5em;
+		color: #26292E;
+		padding-bottom: 0.5em;
+		padding-top: 1em;
+		margin: 0;
+}
+
+.description {
+	width: 18.75em;
+	height: 12,5em;
+}
+
+.parrafoTres {
+		padding: 0;
+		margin: 0;
+		text-align: justify;
+		color: #26292E;
+		font-size: 1em;
+		font-family: 'Roboto', sans-serif;
+		font-weight: normal;
+		margin-bottom: 1.5em;
+}
+
+.findOut {
+		border: 0.5em solid #2e518b;
+		color: #ffffff;
+		text-decoration: none;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		border-radius: 1em;
+		width: 9em;
+		background-color: #2e518b;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 0.1em;	
+}
+
+footer {
+		background-color: #383B43;
+		width: 100%;
+		height: 4em;
+}
+
+.copyright {
+		font-size: 1em;
+		color: #ffffff;
+		text-align: center;
+		padding-top: 1.5em;
+}
