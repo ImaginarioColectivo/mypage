@@ -18,14 +18,16 @@ header {
 
 .name {
 		color: #ffffff;
-		text-align: justify;
-		display: inline-block;
 		margin-left: 1em;
+		margin-top: 0.5em;
+		font-family: 'Ubuntu Condensed', sans-serif;
 }
+
+
 
 ul {
 		 list-style: none;
-		 padding: 1%;
+		 padding: 1em;
 		 margin: 0;
 		 line-height: 40px;
 }
@@ -40,11 +42,19 @@ a {
 		 color: gray;
 		 text-decoration: none;
 		 display: block;
+		 font-family: 'Ubuntu Condensed', sans-serif;	
+		 font-size: 1.2em; 
 }
 
 a:hover {
 		 color: #FFF;
 }
+
+#icon{
+		float: right;
+    	font-size: 2em;
+}
+
 
 #home {
 		width: 100%;

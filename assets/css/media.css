@@ -1,0 +1,52 @@
+/*query para dispositivos de mayor tamaño*/
+@media (min-width: 57.5em) and (max-width: 120em){
+		#photo{
+				background-position-y: -10em;
+		}
+
+		#icon{
+				display: none;
+		}
+
+
+		}
+}
+
+/*query para dispositivos de menor tamaño*/
+@media (min-width: 12em) and (max-width: 57.5em){
+		#photo{
+				background-size: cover;
+		    	background-repeat: no-repeat;
+		    	background-position: center center;
+		    	height: 25em;
+		}
+}
+
+		#icon{
+				float: right;
+    			font-size: 2em;
+    			margin-left: 12em;
+		}
+
+		.container{
+				max-width: 100%;
+		}
+
+		.header{
+				width: 100%;
+				height: 5%;
+		}
+		
+		.hide{
+				visibility: visible;
+		}
+
+		.whatwedo{
+				display: block;
+		}
+
+		.fa-bars{
+				float: right;
+
+		}
+}
